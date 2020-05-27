@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: teal;
+}
+
+.new-todo-input {
+  margin: 15px;
+  width: 200px;
+  height: 24px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.sub-row {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.delete {
+  cursor: pointer;
+}
